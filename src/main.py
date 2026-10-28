@@ -5,7 +5,7 @@ print("hello world")
 
 
 def main():
-    textNode=TextNode("This is some anchor text", TextType.LinkText, "https://www.boot.dev")
+    textNode=TextNode("This is some anchor text", TextType.Link, "https://www.boot.dev")
     print(textNode)
 
 
